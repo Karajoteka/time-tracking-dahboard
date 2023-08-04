@@ -1,0 +1,220 @@
+$font-stack: 'Rubik', sans-serif;
+
+$blue: hsl(246, 80%, 60%);
+$light-red-work: hsl(15, 100%, 70%);
+$soft-blue-play: hsl(195, 74%, 62%);
+$light-red-study: hsl(348, 100%, 68%);
+$lime-green-exercise: hsl(145, 58%, 55%);
+$violet-social: hsl(264, 64%, 52%);
+$soft-orange-selfcare: hsl(43, 84%, 65%);
+
+$very-dark-blue: hsl(226, 43%, 10%);
+$dark-blue: hsl(235, 46%, 20%);
+$desaturated-blue: hsl(235, 45%, 61%);
+$pale-blue: hsl(236, 100%, 87%);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-stack;
+  background-color: $very-dark-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .main-container {
+    width: 375px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    .user-container {
+      background-color: $dark-blue;
+      width: 90%;
+      border-radius: 14px;
+
+      .profile {
+        background-color: $blue;
+        border-radius: 14px;
+        padding: 25px;
+        display: flex;
+
+        .img-profile-container {
+          width: 70px;
+          height: 70px;
+          border: 3px solid white;
+          border-radius: 100%;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .profile-info {
+          margin-top: 12px;
+          margin-left: 15px;
+          color: white;
+
+          h2 {
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin-bottom: 4px;
+          }
+
+          h1 {
+            font-size: 2.5rem;
+            font-weight: 400;
+          }
+        }
+      }
+
+      .menu {
+        color: $pale-blue;
+        display: flex;
+        justify-content: space-between;
+        padding: 25px;
+        font-size: 1.6rem;
+      }
+    }
+
+    .data-section {
+      width: 90%;
+      
+      .containers {
+        position: relative;
+        border-radius: 14px;
+        margin-top: 120px;
+        height: 100px;
+
+        .background-icon-container {    
+          display: flex;
+          justify-content: end;
+          margin-right: 10px;
+          overflow: hidden;
+
+          
+          img {
+            // position: absolute;
+            width: 65px;
+            // margin-top: -8px;
+            
+          }
+        }
+
+        .data-containers {
+          position: absolute;
+          top: 40px;
+          background-color: $dark-blue;
+          width: 100%;
+          border-radius: 14px;
+          padding: 25px;
+          
+          .title-and-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .title {
+              color: white;
+              font-size: 1.8rem;
+              font-weight: 400;
+            }
+
+            img {
+              width: 20px;
+              height: 5px;
+            }
+          }
+
+          .time {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 5px;
+
+            .current-time {
+              color: white;
+              font-size: 3rem;
+              font-weight: 300;
+            }
+
+            .previous-time {
+              color: $pale-blue;
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+
+      .work-container {
+        background-color: $light-red-work;
+        margin-top: 20px;
+        
+
+        img {
+          margin-top: -8px;
+        }
+      }
+
+      .play-container {
+        background-color: $soft-blue-play;
+        margin-top: 80px;
+
+        img {
+          margin-top: -8px;
+        }
+      }
+
+      .study-container {
+        background-color: $light-red-study;
+        margin-top: 80px;
+
+        img {
+          margin-top: -8px;
+        }
+      }
+
+      .exercise-container {
+        background-color: $lime-green-exercise;
+        margin-top: 80px;
+        height: 100px;
+
+        img {
+          // margin-top: -4px;
+        }
+      }
+
+      .social-container {
+        background-color: $violet-social;
+        margin-top: 80px;
+
+        img {
+          margin-top: -8px;
+        }
+      }
+
+      .selfcare-container {
+        background-color: $soft-orange-selfcare;
+        margin-top: 80px;  
+        
+        img {
+          margin-top: -8px;
+        }
+      }
+    }
+  }
+}
+
+
