@@ -35,6 +35,10 @@ body .main-container .user-container .menu {
   flex-direction: column;
   justify-content: space-between;
 }
+body .main-container .user-container .menu p:hover {
+  cursor: pointer;
+  color: white;
+}
 body .main-container .data-section {
   display: grid;
   grid-column: 2/5;
@@ -42,6 +46,10 @@ body .main-container .data-section {
 }
 body .main-container .data-section .containers {
   width: 200px;
+}
+body .main-container .data-section .containers .data-containers:hover {
+  cursor: pointer;
+  background-color: hsl(235, 45%, 61%);
 }
 body .main-container .data-section .work-container {
   grid-column: 2/3;
