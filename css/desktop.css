@@ -1,0 +1,150 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+body .main-container {
+  width: 1000px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 50%);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+body .main-container .user-container {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+body .main-container .user-container .profile {
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+}
+body .main-container .user-container .profile .profile-info {
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 50px;
+}
+body .main-container .user-container .menu {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .main-container .data-section {
+  display: grid;
+  grid-column: 2/5;
+  grid-row: 1/3;
+}
+body .main-container .data-section .containers {
+  width: 200px;
+}
+body .main-container .data-section .work-container {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 210px;
+  height: 150px;
+  margin-top: -96px;
+}
+body .main-container .data-section .work-container .work-data {
+  height: 160px;
+}
+body .main-container .data-section .work-container .work-data .time {
+  display: block;
+  margin-top: 24px;
+}
+body .main-container .data-section .work-container .work-data .time .previous-time {
+  margin-top: 12px;
+}
+body .main-container .data-section .play-container {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  width: 210px;
+  height: 160px;
+  margin-top: -96px;
+  margin-left: 20px;
+}
+body .main-container .data-section .play-container .play-data {
+  width: 210px;
+  height: 160px;
+}
+body .main-container .data-section .play-container .play-data .time {
+  display: block;
+  margin-top: 24px;
+}
+body .main-container .data-section .play-container .play-data .time .previous-time {
+  margin-top: 12px;
+}
+body .main-container .data-section .study-container {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  width: 210px;
+  height: 150px;
+  margin-top: -96px;
+  margin-left: 20px;
+}
+body .main-container .data-section .study-container .study-data {
+  height: 160px;
+  margin-top: 0;
+}
+body .main-container .data-section .study-container .study-data .time {
+  display: block;
+  margin-top: 24px;
+}
+body .main-container .data-section .study-container .study-data .time .previous-time {
+  margin-top: 12px;
+}
+body .main-container .data-section .exercise-container {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 210px;
+  margin-top: 62px;
+}
+body .main-container .data-section .exercise-container .exercise-data {
+  height: 160px;
+}
+body .main-container .data-section .exercise-container .exercise-data .time {
+  display: block;
+  margin-top: 24px;
+}
+body .main-container .data-section .exercise-container .exercise-data .time .previous-time {
+  margin-top: 12px;
+}
+body .main-container .data-section .social-container {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  width: 210px;
+  margin-top: 62px;
+  margin-left: 20px;
+}
+body .main-container .data-section .social-container .social-data {
+  height: 160px;
+}
+body .main-container .data-section .social-container .social-data .time {
+  display: block;
+  margin-top: 24px;
+}
+body .main-container .data-section .social-container .social-data .time .previous-time {
+  margin-top: 12px;
+}
+body .main-container .data-section .selfcare-container {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  width: 210px;
+  margin-top: 62px;
+  margin-left: 20px;
+}
+body .main-container .data-section .selfcare-container .selfcare-data {
+  height: 160px;
+}
+body .main-container .data-section .selfcare-container .selfcare-data .time {
+  display: block;
+  margin-top: 24px;
+}
+body .main-container .data-section .selfcare-container .selfcare-data .time .previous-time {
+  margin-top: 12px;
+}/*# sourceMappingURL=desktop.css.map */

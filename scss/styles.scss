@@ -108,8 +108,7 @@ body {
           img {
             // position: absolute;
             width: 65px;
-            // margin-top: -8px;
-            
+            // margin-top: -8px;            
           }
         }
 
@@ -118,6 +117,7 @@ body {
           top: 40px;
           background-color: $dark-blue;
           width: 100%;
+          height: 150px;
           border-radius: 14px;
           padding: 25px;
           
@@ -162,7 +162,6 @@ body {
         background-color: $light-red-work;
         margin-top: 20px;
         
-
         img {
           margin-top: -8px;
         }
@@ -170,7 +169,7 @@ body {
 
       .play-container {
         background-color: $soft-blue-play;
-        margin-top: 80px;
+        margin-top: 70px;
 
         img {
           margin-top: -8px;
@@ -179,7 +178,7 @@ body {
 
       .study-container {
         background-color: $light-red-study;
-        margin-top: 80px;
+        margin-top: 70px;
 
         img {
           margin-top: -8px;
@@ -188,7 +187,7 @@ body {
 
       .exercise-container {
         background-color: $lime-green-exercise;
-        margin-top: 80px;
+        margin-top: 70px;
         height: 100px;
 
         img {
@@ -198,7 +197,7 @@ body {
 
       .social-container {
         background-color: $violet-social;
-        margin-top: 80px;
+        margin-top: 70px;
 
         img {
           margin-top: -8px;
@@ -207,7 +206,7 @@ body {
 
       .selfcare-container {
         background-color: $soft-orange-selfcare;
-        margin-top: 80px;  
+        margin-top: 70px;  
         
         img {
           margin-top: -8px;
